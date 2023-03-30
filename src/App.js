@@ -13,8 +13,10 @@ const [qoute,setQoute]=useState('');
 useEffect(() => {
   const fetchData = async () => {
     const data =  await getQoute();
-    console.log(data);
-    setQoute(data);
+   
+      const newdata=data.contents.quotes[0];
+    setQoute(newdata);
+    console.log(newdata);
   };
   fetchData();
 }, []);
@@ -22,7 +24,7 @@ useEffect(() => {
   return (
     <div className="App">
       <NavBar qoute={qoute} setQoute={setQoute} />
-      <Land />
+      <Land qoute={qoute} setQoute={setQoute}/>
        <Home />
       
     </div>
