@@ -1,10 +1,17 @@
+import NavBar from "./components/NavBar";
+import { FaBars,FaTimes } from "react-icons/fa";
+import Home from "./components/Home";
+import Land from "./components/Land";
 
-import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-     <h1>My Portfolio</h1>
+      <NavBar />
+      <Land />
+       <Home />
+      
     </div>
   );
 }
