@@ -3,7 +3,7 @@ export const getQoute=async()=>{
 
     try {
 
-        const response= await fetch(`http://quotes.rest/qod.json?category=inspire`);
+        const response= await fetch(`https://dummyjson.com/quotes`);
         const data=await response.json();
 
         console.log(response);

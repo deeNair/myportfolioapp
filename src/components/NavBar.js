@@ -1,8 +1,8 @@
 import React from 'react';
 
-function NavBar(props){
+function NavBar(){
 
-  const {qoute}=props;
+
 
   /*const list= qoute.map((el)=>{
     return(<p>
@@ -18,7 +18,7 @@ function NavBar(props){
 
   return (
     <div>
-    <div className='flex justify-between items-center w-full h-20 px-4 text-gray-500 bg-pink-200 fixed'>
+    <div className='flex justify-between items-center w-full h-20 px-4 text-gray-500 bg-black fixed'>
         
         <div>
             <h1 className='text-5xl font-signature ml-2'>ds</h1>
