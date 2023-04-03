@@ -3,6 +3,8 @@
 /* great vibes*/
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,5 +13,24 @@
 @layer base{
   html{
     font-family: 'Raleway', sans-serif;
+    /*background: linear-gradient(#e5e5e5,#e5e5e5);*/
+    background-image: url(/src/images/jpg/bg2.jpeg);
+
   }
 }
+
+/*quotes */
+.container {
+  margin-left: 30%;
+  height:12rem;
+  width:30rem;
+  overflow: hidden;
+background:rgb(45, 44, 44);
+  display: inline-block;
+  border:2px solid black;
+  border-radius: 20px;
+  
+
+}
+
+
