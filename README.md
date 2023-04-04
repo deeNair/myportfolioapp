@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Myportfolio
+# DEMO-https://deepnair.netlify.app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Table of Contents
+# About The Project
+   A React Application created using create-react-app, built using Api's ,tailwind and bootstrap framework.
+## Built With
+ ![Alt text](https://img.shields.io/badge/html5-%23E34F26.svg?style%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite)
 
-## Available Scripts
 
-In the project directory, you can run:
+![Alt text](https://img.shields.io/badge/css3-%231572B6.svg?style%3Dfor-the-badge%26logo%3Dcss3%26logoColor%3Dwhite)
 
-### `npm start`
+![Alt text](https://img.shields.io/badge/javascript-%yellow.svg?style%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Alt text](https://img.shields.io/badge/react-%.svg?style%3Dfor-the-badge%26logo%3Dcss3%26logoColor%3Dblue)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Alt text](https://img.shields.io/badge/bootstrap-%23E34F26.svg?style%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite)
 
-### `npm test`
+ ![Alt text](https://img.shields.io/badge/tailwind-%23E34F26.svg?style%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Getting Started
 
-### `npm run build`
+# Installation
+To get a local copy of the code, clone it using git in your local terminal:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/deeNair/myportfolioapp
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd myportfolioapp
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+open in VSCode, to see the code using :
 
-### `npm run eject`
+code .
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### npm start
+to open the react app http://localhost:3000 to view locally.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Also live on:
+https://deepnair.netlify.app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Development
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Wireframe:
+![Screenshot](src/images/jpg/myportfolio.png)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Features:
+1.Website uses multiple react components.
+2.Component navBar uses react scroll Link to navigate to different section also the navBar is fixed so its visible at all time.
+3.Used a mp4 video as the landing page.
+4.Used react marquee to have skills scrolling.
+5.Used bootstrap cards to diaplay portfolio projects.
+6.Used react-slick to display the quotesApi in a slider.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Future Enhancements:
+1.make the site responsive to all media.
+2.work on more clean css.
 
-### Code Splitting
+# Acknowledgments
+https://react-slick.neostack.com/docs/example/simple-slider/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+https://mdbootstrap.com/docs/react/components/buttons/
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.figma.com/file/ttdbrKFpy6OrCo61Wkmjor/myportfolio?node-id=0-1&t=V4uC5ygFSHBg70xh-0

@@ -34,8 +34,9 @@ console.log(data)
       <NavBar  />
       <Home />
        <About />
-         <Skills />
+       <Skills />
          <Portfolio />
+    
          <Quotes qt={qt} />
          <Contact />
          <Footer />

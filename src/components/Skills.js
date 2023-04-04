@@ -9,16 +9,16 @@ const Skills = () => {
 
     const skillBoxStyle = {
         backgroundColor: '#303030',
-        boxShadow: `0px 0px 30px pink`
+        boxShadow: `0px 0px 30px white`
     }
 
     return (
-        <div id="skills" className="skills" style={{backgroundColor: '#303030'}}>
-            <div className="skillsHeader">
+        <div id="skills" className='skills' style={{backgroundColor: '#303030'}}>
+            <div className='skillsHeader' >
                 <h2 style={{color: 'whitesmoke'}}>Skills</h2>
             </div>
             <div className="skillsContainer">
-                <div className="skill--scroll">
+                <div className='skill--scroll'>
                     <Marquee 
                         gradient={false} 
                         speed={80} 

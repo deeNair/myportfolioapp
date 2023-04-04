@@ -8,7 +8,7 @@ function Home(){
 //console.log(qt.quotes[0].quote);
 
   return (
-    <div id="home" className='py-20'>
+    <div id="home" className='pt-20'>
         <p className=' bg-gray-800 rounded-2xl '>
         <video src={video} autoPlay muted  />
         </p>

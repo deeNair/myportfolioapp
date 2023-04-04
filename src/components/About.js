@@ -2,10 +2,11 @@ import React from 'react';
 import {BsArrowDownCircle} from 'react-icons/bs';
 import  girl22 from "../images/girl22.gif";
 import  "../images/jpg/bg2.jpeg";
-import "../index";
+import "../index.css";
 
 const About = () => {
   return (
+   
   <div id="about" className="h-screen w-full bg-gradient-to-b from-neutral-200 text-gray-500">
 
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row gap-8">
@@ -37,6 +38,7 @@ const About = () => {
         </div>
 
     </div>
+   
   );
 };
 

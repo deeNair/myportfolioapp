@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: 20vh;
-    padding: 2.5rem 2rem 2rem 2rem;
+    min-height:20vh;
+   /* padding: 2.5rem 2rem 2rem 2rem;*/
 }
 
 .skillsHeader {
@@ -26,7 +26,7 @@
     align-items: center;
     justify-content: center; 
     width: 100%;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     padding: 0 2rem;
 }
 
@@ -37,7 +37,7 @@
 
 
 .skill--box {
-    background: #FAFAFA;
+    /*background: #FAFAFA;*/
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
     border-radius: 10px;
     width: 160px;
@@ -73,7 +73,7 @@
 
 
 .marquee {
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 
 
