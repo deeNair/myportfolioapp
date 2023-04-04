@@ -37,7 +37,7 @@ const content3= book[randomNum3] ?? [];
   return (
     <div className="container">
      
-    <div className='text-4xl font-signature ml-2 px-20 text-zinc-100 '>
+    <div className='text-4xl font-signature ml-0 px-10 py-10 bg-gradient-to-b from-neutral-200 text-gray-500'>
     <Slider {...settings}  >
       <div>
       

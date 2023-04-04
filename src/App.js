@@ -10,6 +10,8 @@ import Contact from "./components/Contact";
 import Quotes from "./components/Quotes";
 //import "./index.css";
 import Footer from "./components/Footer";
+import SocialLink from "./components/SocialLink";
+
 
 function App() {
 const [qt,setQt]=useState([]);
@@ -34,9 +36,10 @@ console.log(data)
       <NavBar  />
       <Home />
        <About />
-       <Skills />
+       
          <Portfolio />
-    
+         <Skills />
+    <SocialLink />
          <Quotes qt={qt} />
          <Contact />
          <Footer />
